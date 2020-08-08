@@ -1,0 +1,5 @@
+while True:
+    x = input().split()
+    if int(x[0]) + int(x[1]) == 0:
+        break
+    print(int(x[0]) * int(x[1]))
